@@ -10,12 +10,11 @@ body {
 
 .postcard {
     width: 550px;
-    min-height: 350px;
     background-color: #fffef0;
     padding: 40px;
     position: relative;
     box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
-    border: 1px solid #ddd;
+    border: 10px solid #352323;
 }
 
 h1 {
@@ -25,27 +24,29 @@ h1 {
 }
 
 p{
-    font-size: 22px;
+    font-size: 12px;
 }
 
-.message {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #444;
+.message{
+    padding: 50px 20px;
 }
 
-/* The Stamp */
+.footer{
+    text-align: center;
+}
+
+
 .stamp {
     position: absolute;
     top: 30px;
     right: 30px;
-    width: 90px;
+    width: 30px;
     height: 110px;
     padding: 5px;
     background: white;
-    border: 1px solid #ccc;
+
     /* Perforated edge effect */
-    box-shadow: 0 0 0 4px white, 0 0 0 5px #ccc;
+    box-shadow: 0 0 0 4px rgb(186, 57, 57), 0 0 0 5px #e4d481;
     display: flex;
     justify-content: center;
     align-items: center;
